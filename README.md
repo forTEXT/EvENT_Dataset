@@ -12,7 +12,7 @@ The EvENT Project is part of the priority programme [*Computational Literary Stu
 
 All annotations are stored in the Annotations_EvENT.json file.
 The annotation data is structured by the annotated texts and the annotators.
-Every text is annotated by two annotators.
+Each text is annotated by two annotators.
 These annotations are the basis for the gold standard annotations.
 
 ```json
@@ -74,5 +74,5 @@ Every annotation is represented in this structure:
 
 ## Plain Texts
 
-Additionaly, the annotated texts are provided in the Plain_Texts folder.
-The annotation's text pointers are applicable to these texts.
+Additionally, the annotated texts are provided in the Plain_Texts folder.
+The text pointers in the annotations refer to these texts.
