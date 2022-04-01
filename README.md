@@ -5,7 +5,7 @@
 This repository provides 41,341 manual annotations of events in German prose texts of the 19th and early 20th century.
 The annotation guidelines are published [here](https://zenodo.org/record/5078175#.Yka12-hBxhE).
 This dataset was created within the EvENT project at the Technical University Darmstadt.
-The EvENT Project is part of the priority programme [*Computational Literary Studies*](https://dfg-spp-cls.github.io/)
+The EvENT project is part of the priority programme [*Computational Literary Studies*](https://dfg-spp-cls.github.io/)
 (CLS), funded by the German Research Foundation (DFG).
 
 ## Dataset
