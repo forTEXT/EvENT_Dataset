@@ -1,5 +1,7 @@
 # Manual Annotations of Narratological Event Types
 
+[![DOI](https://zenodo.org/badge/476644867.svg)](https://zenodo.org/badge/latestdoi/476644867)
+
 ## Overview
 
 This repository provides 41,341 manual annotations of events in German prose texts of the 19th and early 20th century.
