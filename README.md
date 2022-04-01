@@ -6,12 +6,12 @@ This repository provides 41,341 manual annotations of events in German prose tex
 The annotation guidelines are published [here](https://zenodo.org/record/5078175#.Yka12-hBxhE).
 This dataset was created within the EvENT project at the Technical University Darmstadt.
 The EvENT Project is part of the priority programme [*Computational Literary Studies*](https://dfg-spp-cls.github.io/)
-(CLS), funded by the German Research Foundation (DFG). 
+(CLS), funded by the German Research Foundation (DFG).
 
 ## Dataset
 
 All annotations are stored in the Annotations_EvENT.json file.
-The data is structrued by the annotated texts.
+The annotation data is structured by the annotated texts and the annotators.
 Every text is annotated by two annotators.
 These annotations are the basis for the gold standard annotations.
 
@@ -75,4 +75,4 @@ Every annotation is represented in this structure:
 ## Plain Texts
 
 Additionaly, the annotated texts are provided in the Plain_Texts folder.
-The annotation's text pointer are applicable to these texts.
+The annotation's text pointers are applicable to these texts.
