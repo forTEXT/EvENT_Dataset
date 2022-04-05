@@ -17,7 +17,7 @@ The annotation data is structured by the annotated texts and the annotators.
 Each text is annotated by two annotators.
 These annotations are the basis for the gold standard annotations.
 
-```json
+```python
 
 {
     "Text 1": {
@@ -45,32 +45,27 @@ These annotations are the basis for the gold standard annotations.
 
 Every annotation is represented in this structure:
 
-```json
+```python
 {
-    "annotation": "den man gewöhnlich nur den blonden Eckbert nannte",  # the annotated text span
-    "tag": "process",                                                   # the event type classification
-    "properties": {                                                     # additional classifications depending on the event type
+    "annotation": "In einer Gegend des Harzes wohnte ein Ritter",   # the annotated text span
+    "tag": "stative_event",                                         # the event type classification
+    "properties": {                                                 # additional classifications depending on the event type
+        "unpredictable": [
+            0
+        ],
         "mental": [
             "no"
         ],
-        "persistent": [
-            "2"
-        ],
         "representation_type": [
             "narrator_speech"
-        ],
-        "iterative": [
-            "yes"
-        ],
-        "unpredictable": [
-            "0"
-        ],
-        "intentional": [
-            "yes"
         ]
     },
-    "start_point": 108,                                                 # the start pointer in the annotated text
-    "end_point": 157                                                    # the end pointer in the annotated text
+    "spans": [                                                      # the text spans
+        [
+            62,
+            106
+        ]
+    ]
 }
 ```
 
