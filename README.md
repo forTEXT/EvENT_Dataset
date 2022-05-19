@@ -14,7 +14,7 @@ The EvENT project is part of the priority programme [*Computational Literary Stu
 
 All annotations are stored in the Annotations_EvENT.json file.
 The annotation data is structured by the annotated texts and the annotators.
-Each text is annotated by two annotators.
+Each text is annotated by two annotators. 
 These annotations are the basis for the gold standard annotations.
 
 ```python
@@ -60,7 +60,7 @@ Every annotation is represented in this structure:
             "narrator_speech"
         ]
     },
-    "spans": [                                                      # the text spans; discontinuous annotations are represented by multiple pointer items
+    "spans": [                                                      # the text spans; discontinuous events are annotated discontinuously and therefore represented by multiple pointer items
         [
             62,
             106
