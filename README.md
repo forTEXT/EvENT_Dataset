@@ -60,7 +60,7 @@ Every annotation is represented in this structure:
             "narrator_speech"
         ]
     },
-    "spans": [                                                      # the text spans
+    "spans": [                                                      # the text spans; discontinuous annotations are represented by multiple pointer items
         [
             62,
             106
