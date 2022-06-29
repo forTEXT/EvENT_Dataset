@@ -1,6 +1,6 @@
 # Manual Annotations of Narratological Event Types
 
-[![DOI](https://zenodo.org/badge/476644867.svg)](https://zenodo.org/badge/latestdoi/476644867)
+Cite Dataset as: [![DOI](https://zenodo.org/badge/476644867.svg)](https://zenodo.org/badge/latestdoi/476644867)
 
 ## Overview
 
