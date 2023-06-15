@@ -73,3 +73,8 @@ Every annotation is represented in this structure:
 
 Additionally, the annotated texts are provided in the Plain_Texts folder.
 The text pointers in the annotations refer to these texts.
+
+
+## Versions
+
+* 1.2: Fix issue with spans caused by [gitma bug](https://github.com/forTEXT/gitma/pull/8), some annotations would have a start index larger than the end index.
